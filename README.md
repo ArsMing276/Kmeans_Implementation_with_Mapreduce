@@ -1,4 +1,4 @@
-# Kmeans_with_Mapreduce
+# Kmeans_Implementation_with_Mapreduce
 
 In a 'big data' environment with millions of records, direcly apply kmeans would be time consuming no matter in what language. In this project, we want to parallize the kmeans algorithm with mapreduce. This approach may also be applicable to other clustering or Expectation-Maximization optimized algorithms.
 
