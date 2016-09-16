@@ -7,5 +7,4 @@ In a 'big data' environment with millions of records, direcly apply kmeans would
 3. Wrote Parallel K-means MapReduce code with mrjob in Python. Mapper calculates distances between points and
 centroids and update class labels, Reducer aggregate data points from each updated class and calculate mean as new
 centroid. Used mrjob steps function to iterate this process until centroids converge.
-4. Executed the MapReduce code on both single node and multiple nodes; used Mahout to perform parallel K-means with
-the same data generated before, compared their performances.
+4. Executed the MapReduce code on both single node and multiple nodes and compared their performances.
